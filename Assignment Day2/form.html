@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey</title>
+        <style>
+            .requrired:after{
+                content:"*";
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Advertising Estimate</h1>
+            <form >
+                <label for="fname" class="requrired">Name/Company Name</label><br>
+                <input type="text" id="fname" autofocus><br><br>
+                <label for="email"class="requrired">Email</label><br>
+                <input type="email" id="email"><br><br>
+                <label for="date" class="requrired">Ad Start Date</label><br>
+                <input type="date"><br><br>
+                <label for="date" class="requrired">Ad End Date</label><br>
+                <input type="date"><br><br>
+                <lable for="Size">Advertising Size(pixels)</label><br>
+                <input type="radio" id="100px" name="image1" value="100px">
+                <label for="100px">400X200</label><br>
+                <input type="radio" id="101px" name="image2" value="200px">
+                <label for="101px">640X300</label><br>
+                <input type="radio" id="103px" name="image3" value="300px">
+                <label for="103px">1000X1200</label><br><br>
+                <label for="sites">Which sites would you like to advertise on?</label><br>
+                <input type="checkbox" id="check1" name="fb" value="facebook">
+                <label for="fb">Twitter</label><br>
+                <input type="checkbox" id="check2" name="tw" value="Submit">
+                <label for="tw">facebook</label><br>
+                <input type="checkbox" id="check3" name="Yo" value="Youtube">
+                <label for="Yo">Youtube</label><br><br>
+                <label for="Web">Website to be advertised</label><br>
+                <input type="text" id="web1" name="website"><br><br>
+                <label for="Comments">Comments</label><br>
+                <textarea id="Comments"></textarea>
+                <button onclick="alert(Sucessfull);">Submit</button>
+
+
+
+
+
+            </form>
+        </div>
+    </body>
+</html>
